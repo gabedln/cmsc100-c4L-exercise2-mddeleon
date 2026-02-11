@@ -7,13 +7,13 @@
     display: flex;
     align-items: center;
     font-family: GenshinFont;
-    background-color: rgba(10, 10, 10, 0.15);
+    background-color: rgba(10, 10, 10, 0.45);
 }
 
 
 .topnav a{
     margin-right: 45px;
-    font-size: 20px;
+    font-size: 26px;
     color: white;
     text-shadow: 3px 3px 5px rgba(75, 75, 75, 0.333);
     text-decoration: none;
@@ -41,7 +41,7 @@ body{
     text-shadow: 3px 3px 5px rgba(75, 75, 75, 0.333);
     padding-top: 45px;
     padding-left: 25px;
-    margin: 0;
+    margin: 25px;
 }
 
 .featured h1{
@@ -49,9 +49,9 @@ body{
     text-align: center;
 }
 
-.featured b{
+.featured p{
     display: block;
-    font-size: 21px;
+    font-size: 26px;
     text-align: center;
     padding-bottom: 15px;
 }
@@ -63,7 +63,7 @@ body{
 
 .previous_works{
     display:flex;
-    background-color: rgba(10, 10, 10, 0.15);
+    background-color: rgba(10, 10, 10, 0.45);
     border: 5px;
     border-radius: 50px;
     border-color: rgba(8, 19, 19, 0.331);
@@ -91,17 +91,47 @@ body{
     font-family: GenshinFont;
     color: rgba(255, 255, 255, 0.537);
     text-shadow: 3px 3px 5px rgba(75, 75, 75, 0.333);
-    text-align: center;
 }
 
 .details{
     font-family: GenshinFont;
     color:white;
     text-shadow: 3px 3px 5px rgba(75, 75, 75, 0.333);
+    font-size: 20px;
 }
 
 .bio{
     margin-top: 30px;
     display:flex;
-    gap: 90px;
+    gap: 30px;
+}
+
+.biography img{
+    width:200px;
+    height: 200px;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.skills, .biography {
+    display: flex;
+    flex: 1;
+    min-width: 300px;
+    background-color: rgba(10, 10, 10, 0.45);
+    border: 5px;
+    border-radius: 50px;
+    border-color: rgba(8, 19, 19, 0.331);
+    border-style: solid;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer{
+    font-family:GenshinFont;
+    font-size: 15px;
+    color:white;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(75, 75, 75, 0.333);
+    padding-top: 50px;
 }
