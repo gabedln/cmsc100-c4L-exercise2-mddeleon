@@ -1,0 +1,30 @@
+body{
+    background-image: url('main-background.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.featured{
+    display: flex;
+    align-items: center;
+    font-size: 65px;
+    padding-top: 45px;
+    padding-left: 25px;
+    margin: 0;
+}
+
+.featured h1{
+    margin: 0px;
+    text-align: center;
+}
+
+.featured b{
+    display: block;
+    font-size: 25px;
+    text-align: justify;
+}
+.featured img{
+    width: 25%;
+    height: 25%;
+    padding-right: 25px;
+}
