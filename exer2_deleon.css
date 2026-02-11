@@ -1,8 +1,13 @@
-@font-face {
+/*Mari Gabriel D. De Leon
+2024-06258
+Exercise 2: CMSC 100*/
+
+@font-face { /* font face added for extra style */
     font-family: GenshinFont;
     src: url('zh-cn.ttf');
 }
 
+/*css is straightforward, most are for alignment and text*/
 .topnav {
     display: flex;
     align-items: center;
