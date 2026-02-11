@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     font-family: GenshinFont;
-    background-color: rgba(0, 0, 0, 0.35);
+    background-color: rgba(10, 10, 10, 0.15);
 }
 
 
@@ -51,7 +51,7 @@ body{
 
 .featured b{
     display: block;
-    font-size: 25px;
+    font-size: 21px;
     text-align: center;
     padding-bottom: 15px;
 }
@@ -59,4 +59,49 @@ body{
     width: 25%;
     height: 25%;
     padding-right: 25px;
+}
+
+.previous_works{
+    display:flex;
+    background-color: rgba(10, 10, 10, 0.15);
+    border: 5px;
+    border-radius: 50px;
+    border-color: rgba(8, 19, 19, 0.331);
+    border-style: solid;
+    justify-content: center;
+    gap: 30px;
+}
+
+.project{
+    padding: 25px;
+    text-align: center;
+    width: 300px;
+    height: 250;
+    padding-right: 50px;
+}
+
+.project img{
+    width: 250px;
+    height: 185px;
+    border-radius: 30px;
+}
+
+.title{
+    display:flex;
+    font-family: GenshinFont;
+    color: rgba(255, 255, 255, 0.537);
+    text-shadow: 3px 3px 5px rgba(75, 75, 75, 0.333);
+    text-align: center;
+}
+
+.details{
+    font-family: GenshinFont;
+    color:white;
+    text-shadow: 3px 3px 5px rgba(75, 75, 75, 0.333);
+}
+
+.bio{
+    margin-top: 30px;
+    display:flex;
+    gap: 90px;
 }
